@@ -1,131 +1,307 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 <head>
-    <meta charset="utf-8">
-    <title>Mini Practice</title>
-    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta property="og:type" content="website" />
+    <meta property="og:image" content="https://res.cloudinary.com/itsmoccas/image/upload/v1627309644/McD%27s%20Challange/img/account4_gj0kee.jpg" />
+    <meta property="og:url" content="https://progate-tugas-akhir.netlify.app"/>
+    <meta property="og:title" content="Tugas Akhir Progate | Tetap hepi, Walau tugas tak kunjung berhenti." />
     <link rel="stylesheet" href="stylesheet.css">
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="icon" href="/img/thumb-1920-273995.jpg" type="image/png">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;600;700;800;900&family=Raleway:wght@100;200;300;400;500;600;700;800;900&display=swap"
+        rel="stylesheet">
+    <title>Portofolio Website</title>
 </head>
 
 <body>
-    <header>
-        <div class="logo">
-            <h1>My Website</h1>
-        </div>
-        <div class="navbar">
-            <ul>
-                <li><a href="#">HTML</a></li>
-                <li><a href="#">CSS</a></li>
-                <li><a href="#">Javascript</a></li>
-                <li><a href="#">Node</a></li>
-                <li><a href="#">React</a></li>
-            </ul>
-        </div>
-    </header>
-    <main>
-        <div class="top-wrapper">
-            <div class="container">
-                <h2>Start your Exciting Programming Journey right now!</h2>
-                <a class="btn" href="#">Join here!</a>
-            </div>
-        </div>
+    <div id="background-half">
+        <img src="/img/thumb-1920-227568.jpg" alt="">
+    </div>
+    <div class="all-container">
         <div class="wrapper">
-            <h2>Our courses</h2>
-            <div class="course-wrap">
-                <div class="courses">
-                    <h3>HTML</h3>
-                    <p>A markup language to build a website</p>
-                    <p>Difficulty:<span class="fa fa-star"></span></p>
-                    <a href="#" alt="">See more<span><svg aria-hidden="true" focusable="false" data-prefix="fas"
-                                data-icon="right-long" class="svg-inline--fa fa-right-long" role="img"
-                                xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
-                                <path fill="currentColor"
-                                    d="M504.3 273.6l-112.1 104c-6.992 6.484-17.18 8.218-25.94 4.406c-8.758-3.812-14.42-12.45-14.42-21.1L351.9 288H32C14.33 288 .0002 273.7 .0002 255.1S14.33 224 32 224h319.9l0-72c0-9.547 5.66-18.19 14.42-22c8.754-3.809 18.95-2.075 25.94 4.41l112.1 104C514.6 247.9 514.6 264.1 504.3 273.6z">
-                                </path>
-                            </svg></span></a>
+            <!-- Right wrapper-->
+            <div class="profile-wrapper">
+                <!-- menu -->
+                <aside id="nav-bar" class="bar">
+                    <h1 id="menu-title">Menu</h1>
+                    <ul id="menu-bar">
+                        <li class="menu">
+                            <a href="#About">About</a>
+                        </li>
+                        <li class="menu">
+                            <a href="#Experiences">Experiences</a>
+                        </li>
+                        <li class="menu">
+                            <a href="#Works">Works</a>
+                        </li>
+                        <li id="Contact" class="menu">
+                            <a href="#Contactme">Contact</a>
+                        </li>
+                    </ul>
+                </aside>
+                <!-- menu end-->
+                <!-- Profile card-->
+                <aside id="profile-card" class="MyProfile">
+                    <div class="top-profile" style="overflow: hidden;">
+                        <img src="/img/thumb-1920-227568.jpg" alt="">
+                    </div>
+                    <div class="bot-profile">
+                        <img style="border: 2px solid white;" id="profile-picture" src="/img/thumb-1920-238761.png"
+                            alt="">
+                        <div class="sub-desc">
+                            <h2>Ichigo Kurosaki</h2>
+                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Qui animi blanditiis dolorem
+                                minima temporibus ad ipsum impedit modi illum enim!</p>
+                        </div>
+                        <div class="social-media">
+                            <ul>
+                                <li><a href="https://www.facebook.com"><i class="fa fa-facebook"></i></a></li>
+                                <li><a href="https://www.twitter.com"><i class="fa fa-twitter"></a></i></li>
+                                <li><a
+                                        href="https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&cad=rja&uact=8&ved=2ahUKEwiv87jtx8rzAhWF8XMBHadpDDUQFnoECA4QAQ&url=https%3A%2F%2Fwww.linkedin.com%2F&usg=AOvVaw2Fx3jReOOmKj1CUsWZkKns"><i
+                                            class="fa fa-linkedin"></a></i></li>
+                            </ul>
+                        </div>
+                    </div>
+                </aside>
+                <!-- Profile card end-->
+                <p class="copyright">Website design by Moccachinos <br> &#169; 2021</p>
+            </div>
+            <!-- Right wrapper end-->
+            <!-- left wrapper-->
+            <div class="container">
+                <!-- About me-->
+                <div id="About" class="article-wrapper">
+                    <section id="Abt-title" class="title-bar">
+                        <div class="upperbar">
+                            <h1>About</h1>
+                            <button id="abt-me-sl" class="show-less round-btn"></button>
+                        </div>
+                    </section>
+                    <!-- Accordion About me-->
+                    <div class="accordion-item">
+                        <div class="accordion-item-header">
+                            <h2>About Me</h2>
+                        </div>
+                        <div class="accordion-item-body">
+                            <div class="accordion-item-body-content">
+                                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Pariatur fugit incidunt
+                                    quasi mollitia. Accusantium est velit tempora quos maiores! Blanditiis similique a
+                                    vero itaque animi dolorum. Animi, provident magni error, sunt incidunt repellat quo
+                                    ipsam laudantium minus porro perspiciatis doloribus asperiores quasi rem, vitae
+                                    doloremque dicta. Veniam recusandae fugiat corporis!</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Accordion Skills-->
+                    <div class="accordion-item">
+                        <div class="accordion-item-header">
+                            <h2>Skills</h2>
+                        </div>
+                        <div class="accordion-item-body">
+                            <div class="accordion-item-body-content">
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit reiciendis
+                                    veniam unde impedit alias animi maxime dolore in velit ducimus voluptate vel, sit
+                                    ut. In eius provident mollitia. Totam, modi?</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <div class="accordion-item-header">
+                            <!-- Accordion Certification-->
+                            <h2>Certification</h2>
+                        </div>
+                        <div class="accordion-item-body">
+                            <div class="accordion-item-body-content">
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit reiciendis
+                                    veniam unde impedit
+                                    alias animi maxime dolore in velit ducimus voluptate vel, sit ut. In eius provident
+                                    mollitia. Totam,
+                                    modi?</p>
+                            </div>
+                        </div>
+                    </div>
                 </div>
-                <div class="courses">
-                    <h3>CSS</h3>
-                    <p>Necessary skill to decorate a website</p>
-                    <p>Difficulty:<span class="fa fa-star"></span></p>
-                    <a href="#" alt="">See more<span><svg aria-hidden="true" focusable="false" data-prefix="fas"
-                                data-icon="right-long" class="svg-inline--fa fa-right-long" role="img"
-                                xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
-                                <path fill="currentColor"
-                                    d="M504.3 273.6l-112.1 104c-6.992 6.484-17.18 8.218-25.94 4.406c-8.758-3.812-14.42-12.45-14.42-21.1L351.9 288H32C14.33 288 .0002 273.7 .0002 255.1S14.33 224 32 224h319.9l0-72c0-9.547 5.66-18.19 14.42-22c8.754-3.809 18.95-2.075 25.94 4.41l112.1 104C514.6 247.9 514.6 264.1 504.3 273.6z">
-                                </path>
-                            </svg></span></a>
+                <!-- Experiences-->
+                <div id="Experiences" class="article-wrapper">
+                    <section id="Exp-title" class="title-bar">
+                        <div class="upperbar">
+                            <h1>My Experiences</h1>
+                            <button id="abt-me-sl" class="show-less round-btn"></button>
+                        </div>
+                    </section>
+                    <!-- Accordion Organization-->
+                    <div class="accordion-item">
+                        <div class="accordion-item-header">
+                            <h2>Organizations</h2>
+                        </div>
+                        <div class="accordion-item-body">
+                            <div class="accordion-item-body-content">
+                                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Excepturi atque quidem aut
+                                    exercitationem temporibus, expedita nam consequatur voluptatum optio repellat
+                                    tempora voluptate veritatis nobis unde laboriosam in quis! Tempora, harum beatae!
+                                    Esse perspiciatis voluptatum non impedit sed corporis iusto! Tempora.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Accordion Volunteer-->
+                    <div class="accordion-item">
+                        <div class="accordion-item-header">
+                            <h2>Volunteer</h2>
+                        </div>
+                        <div class="accordion-item-body">
+                            <div class="accordion-item-body-content">
+                                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ex, culpa. Saepe quis
+                                    molestias illum aperiam non magnam libero optio. Vel neque ad natus eaque sequi.
+                                    Ipsum quam sapiente culpa a!</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Accordion Internship-->
+                    <div class="accordion-item">
+                        <div class="accordion-item-header">
+                            <h2>Internship</h2>
+                        </div>
+                        <div class="accordion-item-body">
+                            <div class="accordion-item-body-content">
+                                <p>Web Development broadly refers to the tasks associated with developing functional
+                                    websites and applications
+                                    for the Internet. The web development process includes web design, web content
+                                    development,
+                                    client-side/server-side scripting and network security configuration, among other
+                                    tasks.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
                 </div>
-                <div class="courses">
-                    <h3>Javascript</h3>
-                    <p>Versatile and popular language</p>
-                    <p>Difficulty:<span class="fa fa-star"></span><span class="fa fa-star"></span></p>
-                    <a href="#" alt="">See more<span><svg aria-hidden="true" focusable="false" data-prefix="fas"
-                                data-icon="right-long" class="svg-inline--fa fa-right-long" role="img"
-                                xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
-                                <path fill="currentColor"
-                                    d="M504.3 273.6l-112.1 104c-6.992 6.484-17.18 8.218-25.94 4.406c-8.758-3.812-14.42-12.45-14.42-21.1L351.9 288H32C14.33 288 .0002 273.7 .0002 255.1S14.33 224 32 224h319.9l0-72c0-9.547 5.66-18.19 14.42-22c8.754-3.809 18.95-2.075 25.94 4.41l112.1 104C514.6 247.9 514.6 264.1 504.3 273.6z">
-                                </path>
-                            </svg></span></a>
-                </div>           
-                <div id="node" class="courses">
-                    <h3>Node</h3>
-                    <p>Server-side Javasript (for backend)</p>
-                    <p>Difficulty:<span class="fa fa-star"></span><span class="fa fa-star"></span><span
-                            class="fa fa-star"></span></p>
-                    <a href="#" alt="">See more<span><svg aria-hidden="true" focusable="false" data-prefix="fas"
-                                data-icon="right-long" class="svg-inline--fa fa-right-long" role="img"
-                                xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
-                                <path fill="currentColor"
-                                    d="M504.3 273.6l-112.1 104c-6.992 6.484-17.18 8.218-25.94 4.406c-8.758-3.812-14.42-12.45-14.42-21.1L351.9 288H32C14.33 288 .0002 273.7 .0002 255.1S14.33 224 32 224h319.9l0-72c0-9.547 5.66-18.19 14.42-22c8.754-3.809 18.95-2.075 25.94 4.41l112.1 104C514.6 247.9 514.6 264.1 504.3 273.6z">
-                                </path>
-                            </svg></span></a>
+                <!-- Works or Portofolio -->
+                <div id="Works" class="article-wrapper">
+                    <section id="Exp-title" class="title-bar">
+                        <div class="upperbar">
+                            <h1>Works</h1>
+                            <button id="abt-me-sl" class="show-less round-btn"></button>
+                        </div>
+                    </section>
+                    <!-- Accordion + Modal works -->
+                    <div class="accordion-item">
+                        <div class="accordion-item-header">
+                            <h2>Wallpaper</h2>
+                        </div>
+                        <div class="accordion-item-body">
+                            <div class="accordion-item-body-content">
+                                <div class="slideshow-container">
+                                    <div class="mySlides fade">
+                                        <div class="slide1">
+                                            <div class="card">
+                                                <img src="/img/thumb-1920-227568.jpg" />
+                                                <h3>artwork1</h3>
+                                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet
+                                                    aperiam natus dolore rem delectus
+                                                    aliquam.</p>
+                                            </div>
+                                            <div class="card">
+                                                <img src="/img/thumb-1920-144565.jpg" />
+                                                <h3>artwork2</h3>
+                                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet
+                                                    autem enim rem nobis magnam facilis.
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="mySlides fade">
+                                        <div class="slide1">
+                                            <div class="card">
+                                                <img src="/img/thumb-1920-273995.jpg" />
+                                                <h3>artwork3</h3>
+                                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus,
+                                                    placeat deleniti. Officiis illum
+                                                    rem maxime?</p>
+                                            </div>
+                                            <div class="card">
+                                                <img src="/img/thumb-1920-451608.jpg" />
+                                                <h3>artwork4</h3>
+                                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident at
+                                                    ullam libero, doloribus quam
+                                                    voluptatum.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="mySlides fade">
+                                        <div class="slide1">
+                                            <div class="card">
+                                                <img src="/img/thumb-1920-545905.jpg" />
+                                                <h3>artwork5</h3>
+                                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit
+                                                    placeat quibusdam illum et corporis
+                                                    eligendi.</p>
+                                            </div>
+                                            <div class="card">
+                                                <img src="/img/thumb-1920-111290.jpg" />
+                                                <h3>artwork6
+                                                </h3>
+                                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum,
+                                                    sapiente explicabo reiciendis pariatur
+                                                    ducimus.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                                    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
-                <div id="react" class="courses">
-                    <h3>React</h3>
-                    <p>Front-end framework of JavaScript</p>
-                    <p>Difficulty:<span class="fa fa-star"></span><span class="fa fa-star"></span><span
-                            class="fa fa-star"></span></p>
-                    <a href="#" alt="">See more<span><svg aria-hidden="true" focusable="false" data-prefix="fas"
-                                data-icon="right-long" class="svg-inline--fa fa-right-long" role="img"
-                                xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
-                                <path fill="currentColor"
-                                    d="M504.3 273.6l-112.1 104c-6.992 6.484-17.18 8.218-25.94 4.406c-8.758-3.812-14.42-12.45-14.42-21.1L351.9 288H32C14.33 288 .0002 273.7 .0002 255.1S14.33 224 32 224h319.9l0-72c0-9.547 5.66-18.19 14.42-22c8.754-3.809 18.95-2.075 25.94 4.41l112.1 104C514.6 247.9 514.6 264.1 504.3 273.6z">
-                                </path>
-                            </svg></span></a>
+                <!-- Contact -->
+                <div id="Contactme" class="article-wrapper">
+                    <section id="Exp-title" class="title-bar">
+                        <div class="upperbar">
+                            <h1>Contact Me</h1>
+                            <button id="abt-me-sl" class="show-less round-btn"></button>
+                        </div>
+                    </section>
+                    <!-- Accordion Get in touch -->
+                    <div class="accordion-item">
+                        <form class="accordion-item-header">
+                            <h2>Get in touch</h2>
+                        </form>
+                        <div class="accordion-item-body">
+                            <div class="accordion-item-body-content">
+                                <!-- form -->
+                                <form action="">
+                                    <div class="inputBox">
+                                        <input id="left-input" class="input" type="text" placeholder="your name">
+                                        <input class="input" type="email" placeholder="your email">
+                                    </div>
+                                    <div class="inputBox">
+                                        <input id="lower-input" class="input" type="text" placeholder="your subject">
+                                    </div>
+                                    <div>
+                                        <textarea placeholder="your message" cols="30" rows="10"></textarea>
+                                        <input type="submit" value="Send Message" class="form-btn">
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
-    </main>
-    <footer>
-        <div class="footer-wrapper">
-            <div class="logo">
-                <h1>My Website</h1>
-            </div>
-            <div class="footer-thingy">
-                <div class="course-list">
-                    <ul>
-                        <li class="title-list">Courses</li>
-                        <li><a href="#">HTML</a></li>
-                        <li><a href="#">CSS</a></li>
-                        <li><a href="#">Javascript</a></li>
-                        <li><a href="#">Node</a></li>
-                        <li><a href="#">React</a></li>
-                    </ul>
-                </div>
-                <div class="Socmed-list">
-                    <ul>
-                        <li class="title-list">Social Media</li>
-                        <li><a href="#">Instagram</a></li>
-                        <li><a href="#">Facebook</a></li>
-                        <li><a href="#">Twitter</a></li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-        <p class="copyright">Mini Practice Website code by Adib Fahri<br> &#169; 2021, Moccachinos</p>
-    </footer>
+        <p class="copyright-mobile">Website design by Moccachinos <br> &#169; 2021</p>
+    </div>
+    <script src="index.js"></script>
 </body>
 
 </html>
